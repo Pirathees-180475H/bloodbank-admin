@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+
+}
+
+.container{
+
+    width: 100%;
+    height: 100%;
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    background:rgba(253, 0, 34, 0.267);
+    padding: 0 50px;
+    box-sizing: border-box;
+    font-style: initial;
+}
+.logo{
+    width: 155px; ;
+}
+
+.logo img{
+    width: 155px;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+.nav{
+    flex:1;
+
+}
+
+nav ul li{
+    list-style: circle;
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration:firebrick;
+    color:rgb(245, 245, 245);
+    font-size: 17px;
+
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+
+
+}
+
+.user img{
+    width: 100px;
+    margin-left: 0px;
+}
+
+.sidebar{
+    width: 155px;
+    height:100vh;
+    background :rgba(29,31,58,0.5);
+    position: absolute;
+    top: 0;
+    bottom:0 ;
+    left: 0;
+    text-decoration:rgb(255, 255, 255);
+    
+    
+    font-size: 20px;
+    
+    
+}
+.homelogo{
+    width: 100px;
+    display: block;
+    margin: 120px auto 0;
+    cursor: pointer;
+}
+
+.update{
+    width: 100px;
+    display: block;
+    margin: 120px auto 0;
+    cursor: pointer;
+
+}
+.msg-container{
+    width : 600px;
+    height: 280px;
+    position: absolute;
+    
+    left:15%;
+    top:30%;
+    transform: translateY(-50%);
+
+}
+#slider{
+    display: inline-flex;
+}
+
+.msg-col{
+    width:500px;
+}
+
+.msg-col h1{
+    color:#fff;
+    font-size: 50px;
+    font-weight: 100;
+    margin:10px 0;
+
+}
+
+.msg-col p{
+    color:rgb(7, 7, 7);
+    font-size: 15px;
+    font-weight: 100;
+    margin:10px 0;
+    line-height: 25px;
+}
